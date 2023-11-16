@@ -13,5 +13,5 @@ Visiter [notre site](https://www.paxo.fr) pour en savoir plus sur le projet Paxo
 # Contributeurs 
 
 <a href="https://github.com/paxo-phone/PaxOS-8/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=paxo-phone/paxo-electronic />
+  <img src="https://contrib.rocks/image?repo=paxo-phone/paxo-electronic" />
 </a>
