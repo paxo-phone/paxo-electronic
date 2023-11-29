@@ -2,6 +2,10 @@
 
 Ce répertoire rassemble tous les fichiers relatifs au hardware du projet Paxo (plans, modèles 3D etc.) permettant à chacun d'étudier le fonctionnement du téléphone et / ou de le fabriquer chez soi. 
 
+# disclaimer:
+  Le shéma disponible n'est pas encore testé et peut ne tout simplement pas fonctionner, donc merci de patienter pendant sa validation et ses tests
+
+
 # Nous contacter
 
 Vous pouvez nous contacter via notre [site web](https://www.paxo.fr) ou notre [serveur discord](https://discord.com/invite/MpqbWr3pUG).
