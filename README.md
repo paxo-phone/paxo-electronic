@@ -14,7 +14,7 @@ Le circuit est basé sur 6 parties essentielles.
 - **Le CH340C** est un convertisseur USB vers TTL. Il permet à l’ESP32 de communiquer avec un ordinateur par le port USB. Il permet donc de mettre à jour le téléphone et de mieux comprendre les calculs en temps réel de l’esp32.
 - Le circuit d’alimentation utilise 3 composants distincts : le premier sert à charger la batterie depuis le port USB, le second est utilisé pour sécuriser la charge et la décharge de la batterie et lui garantir une longue vie, et le dernier permet de convertir l’énergie de la batterie en un voltage utilisable par tout le reste du circuit.
 - La mémoire SPI est assurée par une carte micro SD. L’ESP32 a un stockage très limité et doit donc utiliser une mémoire externe pour stoker les messages, les images et etc.
-- **L’écran 320x480**, avec un tactile résistif (bas de gamme) permet l’affichage de l’interface utilisateur et l’exploitation de l’OS.
+- **L’écran 320x480**, avec un tactile capacitif, il permet l’affichage de l’interface utilisateur et l’exploitation de l’OS.
 
 # Nous contacter
 
