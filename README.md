@@ -5,6 +5,16 @@ Ce répertoire rassemble tous les fichiers relatifs au hardware du projet Paxo (
 > [!CAUTION]
 > Le schéma actuel n'est pas encore testé et est susceptible de ne pas fonctionner. Les plans définifs seront disponibles d'ici quelques semaines. 
 
+# Architecture générale
+
+Le circuit est basé sur 6 parties essentielles.
+
+- **L’ESP32** est le microcontrôleur, le “cerveau” du téléphone : avec 2 cœurs à 240Mhz, il se charge de réaliser tous les calculs et de faire tourner l’OS. Il s’occupe de faire les rendus de l’écran et de synchroniser tous les autres composants.
+- **Le SIM800L** est un composant permettant la connexion et la communication au réseau 2G. Il se charge de passer les appels, en utilisant le microphone et le haut-parleur. Il permet également de connaître l’heure exacte en fonction de la localisation, et analyse la charge de la batterie.
+- **Le CH340C** est un convertisseur USB vers TTL. Il permet à l’ESP32 de communiquer avec un ordinateur par le port USB. Il permet donc de mettre à jour le téléphone et de mieux comprendre les calculs en temps réel de l’esp32.
+- Le circuit d’alimentation utilise 3 composants distincts : le premier sert à charger la batterie depuis le port USB, le second est utilisé pour sécuriser la charge et la décharge de la batterie et lui garantir une longue vie, et le dernier permet de convertir l’énergie de la batterie en un voltage utilisable par tout le reste du circuit.
+- La mémoire SPI est assurée par une carte micro SD. L’ESP32 a un stockage très limité et doit donc utiliser une mémoire externe pour stoker les messages, les images et etc.
+- **L’écran 320x480**, avec un tactile résistif (bas de gamme) permet l’affichage de l’interface utilisateur et l’exploitation de l’OS.
 
 # Nous contacter
 
