@@ -2,6 +2,10 @@
 
 Ce répertoire rassemble tous les fichiers relatifs au hardware du projet Paxo (plans, modèles 3D etc.) permettant à chacun d'étudier le fonctionnement du téléphone et / ou de le fabriquer chez soi. 
 
+# Schéma
+Disponible en PDF ici: [https://github.com/paxo-phone/paxo-electronic/blob/main/schematic.pdf](https://github.com/paxo-phone/paxo-electronic/blob/main/schematic.pdf)
+Et sur ovhlab ici: [https://oshwlab.com/gabriel.rochet/paxo-phone-5-r1](https://oshwlab.com/gabriel.rochet/paxo-phone-5-r1)
+
 # Architecture générale
 
 Le circuit est basé sur 6 parties essentielles.
